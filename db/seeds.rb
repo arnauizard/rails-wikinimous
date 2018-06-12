@@ -4,4 +4,18 @@
 # Examples:
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+#   Character.create(name: 'Luke', movie: movies.firstr
+require 'faker'
+Article.destroy_all
+
+10.times do |i|
+article = Article.new(
+  title: Faker::Lorem.sentence,
+  content: Faker::Lorem.paragraphs(5),
+)
+
+article.save!
+puts "creating"
+end
+
+

@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+form {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#articles {
+  margin-left: 200px;
+  padding: 20px;
+  font-size: 30px;
+  font: arial;
+
+}
+
+#article {
+  padding: 20px;
+
+
+}
+
+#article a {
+  text-decoration: none;
+
+}
+
+#add {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#form article_content {
+height: 300px;
+width: 400px;
+}
+
